@@ -1,0 +1,196 @@
+/* Html */
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    background-color: #223240;
+}
+.navbar-brand{
+    font-weight: bold;
+    color: white;
+}
+.navbar-brand:hover{
+    color: grey;
+}
+body nav li {
+    font-weight: bold;
+    padding-left: 15px; padding-right: 15px;
+    color: white;
+}
+
+/* Website Body */
+.col-md-6 {
+    display: grid;
+    place-items: center;
+}
+.col-xxl-3 {
+    display: grid;
+    place-items: center;
+}
+.col-xxl-6 {
+    display: grid;
+    place-items: center;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 390px;
+    overflow: hidden;
+    align-items: stretch;
+}
+
+.image-container img {
+    width: 100%;
+    min-height: 550px;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.text-overlay h1 {
+    padding-top: 30px;
+    font-size: 54px;
+    margin-bottom: 0.5em;
+}
+.custom-line {
+    border: none;
+    height: 10px !important;
+    color: white;
+    background-color: white ; /* Color blanco */
+    margin: 20px 0; /* Espaciado alrededor de la línea */
+}
+
+.text-overlay button {
+
+}
+
+.text-overlay p {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+/* Section 1 */
+.tf_one{
+    padding: 10% 20%;
+}
+.tf_one h4 {
+    font-weight: bold;
+}
+.tf_one h1 {
+    font-weight: bold;
+    font-size: 70px;
+    padding-right: 5px;
+    line-height: 65px;
+}
+.tf_one p {
+    font-size: 23px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+.tf_one a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Section 2 */
+.tf_two{
+    padding: 1% 2%;
+}
+.tf_two h4 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0 20%;
+}
+.tf_two h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 5px;
+    line-height: 65px;
+
+}
+.tf_two p {
+    font-size: 23px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+.tf_two a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Section 3 */
+.tf_three{
+    padding: 20% 20%;
+}
+.tf_three h1 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-right: 20px;
+}
+.tf_three p {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.td_three {
+    padding: 8% 80px;
+}
+.td_three h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+.td_three p {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+
+/* Section 6*/
+.td_six {
+    padding: 0px;
+}
+
+.tf_six{
+    padding: 10% 10%;
+}
+.tf_six h1 {
+    font-weight: bold;
+    font-size: 70px;
+    padding-right: 5px;
+    line-height: 65px;
+}
+.tf_six p {
+    font-size: 23px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+.tf_six a {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer{
+    background-color: #223240;
+}
+footer p{
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+.nav-link:hover{
+    color: grey;
+}
